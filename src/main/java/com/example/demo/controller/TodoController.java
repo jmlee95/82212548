@@ -12,7 +12,7 @@ public class TodoController {
     }
 
     @GetMapping("/user")
-    public ResponseEntity<String> getUser() {
-        return ResponseEntity.ok("82212548");
+    public String getUser() {
+        return "82212548";
     }
 }
