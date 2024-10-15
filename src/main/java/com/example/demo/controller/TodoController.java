@@ -10,4 +10,9 @@ public class TodoController {
     public String home() {
         return "todoList";
     }
+
+    @GetMapping("/user")
+    public ResponseEntity<String> getUser() {
+        return ResponseEntity.ok("82212548");
+    }
 }
